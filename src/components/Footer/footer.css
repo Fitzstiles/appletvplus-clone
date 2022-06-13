@@ -1,0 +1,146 @@
+.bg__color {
+    background-color: #F5F5F7;
+}
+
+a {
+    color: #424245;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.footer__container {
+    max-width: 80%;
+    margin: auto;
+    font-size: 12px;
+    color: #6e6e73;
+}
+
+.upper__footer {
+    padding: 20px 0;
+    border-bottom: 0.2px solid #6e6e73;
+}
+
+.upper__footer p {
+    margin-top: 20px;
+}
+
+/* the second Footer styles */
+.icon__container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: .3s;
+    padding: 20px 0;
+}
+
+.icon__container svg {
+    font-size: 20px;
+}
+
+.icon__container svg:hover {
+    color: black;
+}
+
+.flex__wrapper {
+    display: flex;
+    justify-content: space-around;
+    margin-left: -35px;
+    transition: 0.3s ease-in-out;
+}
+
+
+.flex__wrapper ul {
+    margin-left: -40px;
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+
+.flex__wrapper li {
+    margin: 10px 0;
+}
+
+.top__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+
+.top__container svg {
+    font-size: 20px;
+}
+
+.linkss li {
+    transition: 0.3s ease-in-out;
+    font-size: 12px;
+    color: gray;
+}
+
+.bottom p {
+    padding: 10px 0;
+}
+
+.bottom a {
+    color: #2997FF;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.secondbottom {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+
+.secondbottom a {
+    color: #424245;
+}
+
+.secondbottom a:hover {
+    text-decoration: underline;
+}
+
+/* the second Footer styles ends */
+
+@media (max-width:800px) {
+    .footer__container {
+        max-width: 95%;
+    }
+
+    .flex__wrapper {
+        display: block;
+        margin-left: 0;
+    }
+
+    .flex__wrapper h4 {
+        font-weight: 200;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .tinLine {
+        height: 0.2px;
+        background-color: gray;
+        margin-top: 10px;
+    }
+
+    .linkss {
+        display: none;
+    }
+
+    .icon__container {
+        font-size: 20px;
+    }
+
+    .icon__container svg {
+        font-size: 30px;
+    }
+
+    .top__container {
+        display: flex;
+    }
+}

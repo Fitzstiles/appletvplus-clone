@@ -114,6 +114,7 @@
     color: white;
     justify-content: space-between;
     max-width: 90%;
+    height: 50px;
     margin: auto;
     position: relative;
 }
@@ -127,7 +128,7 @@
 
 .hamburger {
     height: 1px;
-    width: 25px;
+    width: 20px;
     margin-bottom: 8px;
     background-color: white;
     transition: 0.3s;
@@ -143,20 +144,23 @@
 }
 
 .mobilenav__links {
-    position: absolute;
-    top: -100vh;
+    /* position: absolute; */
+    /* top: -100vh; */
+    display: none;
     width: 100%;
     transition: 0.6s ease-in-out;
 }
 
 .display {
-    position: absolute;
+    /* position: absolute; */
+    display: block;
     top: 30px;
+    height: 100vh;
     padding-top: 30px;
     width: 100%;
     color: gray;
     background-color: black;
-    transition: 0.6s ease-in-out;
+    animation: slideDown .3s ease-in-out;
 }
 
 .input__area {
@@ -193,6 +197,16 @@
 }
 
 /* mobile navigation  End*/
+
+@keyframes slideDown {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(100);
+    }
+}
 
 @media (max-width:800px) {
     .header__container {
