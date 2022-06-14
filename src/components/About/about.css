@@ -19,7 +19,8 @@
 
 .left__offer img {
     overflow: hidden;
-    width: 100%;
+    max-width: 100%;
+    padding-left: 8px;
 }
 
 .right__offer {
@@ -67,10 +68,50 @@
 /* Apple music styling starts here */
 .applemusic__container {
     display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     background-color: #F5F5F7;
     max-width: 98%;
     margin: auto;
+    margin-bottom: 10px;
+    padding-top: 60px;
+    gap: 50px;
 }
+
+.textArea {
+    background-color: #F5F5F7;
+    color: rgb(29, 29, 31);
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.textArea p {
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 30px;
+    padding-top: 30px;
+    max-width: 500px;
+}
+
+.textArea a {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+    background-color: rgb(29, 29, 31);
+    cursor: pointer;
+    padding: 15px 40px;
+    border-radius: 30px;
+}
+
+.textArea a:hover {
+    background-color: rgb(52, 52, 53);
+}
+
+.img__container img {
+    max-width: 100%;
+    overflow: hidden;
+}
+
+/* Apple music styling Ends here */
 
 @media (max-width:800px) {
     .offer__items {
@@ -78,5 +119,9 @@
         font-weight: 600;
         gap: 30px;
         flex-direction: column-reverse;
+    }
+
+    .textArea {
+        text-align: center;
     }
 }

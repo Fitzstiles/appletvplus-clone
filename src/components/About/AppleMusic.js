@@ -5,12 +5,10 @@ const Applemusic = () => {
     <div className="applemusic__container">
       <div className="textArea">
         <p>The Apple Music Student Plan comes with Apple TV+ for free.3</p>
-        <Link className="theLink" to="/">
-          Try Apple Music free
-        </Link>
+        <Link to="/">Try Apple Music free</Link>
       </div>
       <div className="img__container">
-        <img src="./images/apple icon.PNG" alt="" />
+        <img src="./images/musiclogo.PNG" alt="" />
       </div>
     </div>
   );
