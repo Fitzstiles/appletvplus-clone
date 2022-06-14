@@ -1,0 +1,82 @@
+/* About stylings starts */
+.offer__container {
+    max-width: 98%;
+    margin: 20px auto;
+    background-color: #F5F5F7;
+    color: rgb(29, 29, 31);
+    font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    padding: 60px 0;
+}
+
+.offer__items {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.left__offer img {
+    overflow: hidden;
+    width: 100%;
+}
+
+.right__offer {
+    text-align: center;
+    max-width: 500px;
+}
+
+.thelogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right__offer a {
+    color: #2997FF;
+    font-weight: 200;
+    font-size: 16px;
+}
+
+.right__offer a:hover {
+    text-decoration: underline;
+}
+
+.offer__links {
+    margin: 20px 0;
+}
+
+.offer__links a {
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    font-weight: 700;
+    background-color: rgb(29, 29, 31);
+    cursor: pointer;
+    padding: 15px 40px;
+    border-radius: 30px;
+}
+
+.offer__links a:hover {
+    background-color: rgb(52, 52, 53);
+    text-decoration: none;
+}
+
+/* About stylings Ends */
+
+/* Apple music styling starts here */
+.applemusic__container {
+    display: flex;
+    background-color: #F5F5F7;
+    max-width: 98%;
+    margin: auto;
+}
+
+@media (max-width:800px) {
+    .offer__items {
+        font-size: 28px;
+        font-weight: 600;
+        gap: 30px;
+        flex-direction: column-reverse;
+    }
+}

@@ -2,11 +2,11 @@
     background-color: #F5F5F7;
 }
 
-a {
+.footer__container a {
     color: #424245;
 }
 
-a:hover {
+.footer__container a:hover {
     text-decoration: underline;
 }
 
