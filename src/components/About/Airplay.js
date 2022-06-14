@@ -8,7 +8,7 @@ const Airplay = () => {
         <h1>Bring Apple TV+ to a screen near you.</h1>
         <Link to="/">Learn more</Link>
         <div className="airplay__image">
-          <img src="./images/AppleAirplayLogo.png" alt="" />
+          <img src="./images/AppleAirplayLogo.PNG" alt="" />
         </div>
       </div>
     </div>
