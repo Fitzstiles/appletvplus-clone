@@ -1,5 +1,6 @@
 import { BrowserRouter } from "react-router-dom";
 import Applemusic from "./components/About/AppleMusic";
+import AppleTv from "./components/About/AppleTv";
 import Offer from "./components/About/Offer";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/header/Header";
@@ -15,6 +16,7 @@ function App() {
         <ThirdHeader />
         <Offer />
         <Applemusic />
+        <AppleTv />
         <Footer />
       </BrowserRouter>
     </div>

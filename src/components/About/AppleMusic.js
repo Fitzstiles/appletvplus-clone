@@ -8,7 +8,7 @@ const Applemusic = () => {
         <Link to="/">Try Apple Music free</Link>
       </div>
       <div className="img__container">
-        <img src="./images/musiclogo.PNG" alt="" />
+        <img src="./images/musicLogo.PNG" alt="" />
       </div>
     </div>
   );
