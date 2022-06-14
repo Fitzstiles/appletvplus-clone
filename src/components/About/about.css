@@ -20,7 +20,6 @@
 .left__offer img {
     overflow: hidden;
     max-width: 100%;
-    padding-left: 8px;
 }
 
 .right__offer {
@@ -115,16 +114,26 @@
 
 
 /* Appletv styling starts here */
+.both__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
 
 .appletv__container,
 .airplay__container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
     color: rgb(29, 29, 31);
     font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
     background-color: #F5F5F7;
-    margin: 40px 0;
-    /* height: 100vh; */
+    padding: 40px;
+    padding-bottom: 0;
+    margin: 20px auto;
+    width: auto;
 }
 
 .logo__container {
@@ -143,7 +152,17 @@
 }
 
 .airplay__items h1 {
-    max-width: 40%;
+    font-size: 30px;
+    max-width: 70%;
+    padding: 20px 0;
+    margin: auto;
+    font-weight: 600;
+}
+
+.texts h1 {
+    font-size: 40px;
+    padding: 10px 0;
+    font-weight: 600;
 }
 
 .appletv__image img {
@@ -155,6 +174,12 @@
     max-width: 100%;
     padding-top: 20px;
     overflow: hidden;
+}
+
+.airplay__items a {
+    color: #2997FF;
+    font-weight: 200;
+    font-size: 16px;
 }
 
 /* Appletv styling starts here */
@@ -171,7 +196,16 @@
         text-align: center;
     }
 
-    .appletvandairplay__container {
+    .both__container {
         flex-direction: column;
+    }
+
+    .airplay__items h1 {
+        max-width: 95%;
+    }
+
+    .appletv__container,
+    .airplay__container {
+        padding-top: 70px;
     }
 }
