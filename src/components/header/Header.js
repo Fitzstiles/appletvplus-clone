@@ -1,5 +1,4 @@
 import "./header.css";
-import SecondHeader from "./SecondHeader";
 
 import { Link } from "react-router-dom";
 import MobileNavigation from "./MobileNavigation";
@@ -60,8 +59,6 @@ const Header = () => {
           </svg>
         </div>
       </div>
-
-      <SecondHeader />
     </div>
   );
 };

@@ -19,7 +19,8 @@ a:hover {
 
 .upper__footer {
     padding: 20px 0;
-    border-bottom: 0.2px solid #6e6e73;
+    border-bottom: 0.2px solid #d2d2d7;
+    ;
 }
 
 .upper__footer p {
@@ -69,16 +70,17 @@ a:hover {
 }
 
 .top__container svg {
-    font-size: 20px;
+    font-size: 16px;
 }
 
 .linkss li {
     transition: 0.3s ease-in-out;
     font-size: 12px;
-    color: gray;
+    color: #424245;
 }
 
 .bottom p {
+    color: #6e6e73;
     padding: 10px 0;
 }
 
@@ -117,14 +119,15 @@ a:hover {
     }
 
     .flex__wrapper h4 {
-        font-weight: 200;
+        font-weight: 100;
         font-size: 16px;
         margin-top: 10px;
+        color: #1d1d1f;
     }
 
     .tinLine {
         height: 0.2px;
-        background-color: gray;
+        background-color: #d2d2d7;
         margin-top: 10px;
     }
 
@@ -132,8 +135,9 @@ a:hover {
         display: none;
     }
 
-    .icon__container {
-        font-size: 20px;
+    .displaylinks {
+        display: block;
+        transition: .3s;
     }
 
     .icon__container svg {
