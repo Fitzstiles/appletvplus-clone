@@ -1,4 +1,8 @@
-/* About stylings starts */
+/***********************
+**********************
+ Offer stylings starts 
+ **********************
+ ***********************/
 .offer__container {
     max-width: 98%;
     margin: 20px auto;
@@ -19,7 +23,7 @@
 
 .left__offer img {
     overflow: hidden;
-    max-width: 100%;
+    width: 100%;
 }
 
 .right__offer {
@@ -31,16 +35,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-.right__offer a {
-    color: #2997FF;
-    font-weight: 200;
-    font-size: 16px;
-}
-
-.right__offer a:hover {
-    text-decoration: underline;
 }
 
 .offer__links {
@@ -62,9 +56,19 @@
     text-decoration: none;
 }
 
-/* About stylings Ends */
+/***********************
+**********************
+ Offer stylings Ends 
+ **********************
+ ***********************/
 
-/* Apple music styling starts here */
+
+
+/********************
+**********************
+Apple music styling starts here 
+**********************
+***************/
 .applemusic__container {
     display: flex;
     justify-content: space-evenly;
@@ -110,10 +114,18 @@
     overflow: hidden;
 }
 
-/* Apple music styling Ends here */
+/***********************
+**********************
+ Apple music styling Ends here 
+ **********************
+ ***********************/
 
 
-/* Appletv styling starts here */
+/***********************
+**********************
+ Appletv styling starts here 
+ **********************
+ ***********************/
 .both__container {
     display: flex;
     justify-content: space-between;
@@ -133,7 +145,6 @@
     padding: 40px;
     padding-bottom: 0;
     margin: 20px auto;
-    width: auto;
 }
 
 .logo__container {
@@ -170,19 +181,30 @@
     overflow: hidden;
 }
 
+.link__container {
+    padding-bottom: 20px;
+
+}
+
+#appletv__links {
+    padding: 8px 18px;
+    background-color: #2997FF;
+    border-radius: 20px;
+    color: white;
+    margin-right: 5px;
+}
+
 .airplay__image img {
     max-width: 100%;
     padding-top: 20px;
     overflow: hidden;
 }
 
-.airplay__items a {
-    color: #2997FF;
-    font-weight: 200;
-    font-size: 16px;
-}
-
-/* Appletv styling starts here */
+/***********************
+**********************
+ Appletv styling ends here 
+ **********************
+ ***********************/
 
 @media (max-width:800px) {
     .offer__items {

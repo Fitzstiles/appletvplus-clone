@@ -5,7 +5,9 @@ const ThirdHeader = () => {
     <div className="lowerHeader__container">
       <h4>
         Friday Night Baseball, now streaming on Apple TV+.
-        <Link to="/"> Learn more</Link>
+        <Link className="blue__links" to="/">
+          Learn more
+        </Link>
       </h4>
     </div>
   );

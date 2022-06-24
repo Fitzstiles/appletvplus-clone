@@ -6,6 +6,8 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/header/Header";
 import SecondHeader from "./components/header/SecondHeader";
 import ThirdHeader from "./components/header/ThirdHeader";
+import { Data } from "./Data";
+import Faq from "./components/About/Faq";
 
 function App() {
   return (
@@ -14,6 +16,7 @@ function App() {
         <Header />
         <SecondHeader />
         <ThirdHeader />
+        <Faq Data={Data} key={Data.id} />
         <Offer />
         <Applemusic />
         <AppleTv />

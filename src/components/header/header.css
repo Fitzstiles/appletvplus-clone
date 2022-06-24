@@ -89,16 +89,6 @@
     font-size: 14px;
 }
 
-.lowerHeader__container a {
-    color: #2997FF;
-    font-weight: 200;
-    font-size: 14px;
-}
-
-.lowerHeader__container a:hover {
-    text-decoration: underline;
-}
-
 .linethrough {
     height: 0.2px;
     background-color: rgb(85, 79, 79);

@@ -1,0 +1,43 @@
+.collapse__container {
+    max-width: 70%;
+    margin: auto;
+    color: rgb(29, 29, 31);
+}
+
+.collapse__container h1 {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.dataitem__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    cursor: pointer;
+    border-bottom: 1px solid #d2d2d7;
+}
+
+.dataitem__header svg {
+    font-size: 60px;
+}
+
+.dataitem__body {
+    margin: 20px 0;
+    font-weight: 400;
+    font-size: 17px;
+    color: #6e6e73;
+}
+
+@media(max-width:800px) {
+    .collapse__container {
+        max-width: 90%;
+    }
+
+    .collapse__container h1 {
+        font-size: 30px;
+    }
+}

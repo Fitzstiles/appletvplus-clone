@@ -141,13 +141,13 @@ const SecondFoorter = () => {
               <li>Apple Music</li>
             </a>
             <a href="/">
-              <li>Apple TV+</li>
+              <li>Apple TV</li>
             </a>
             <a href="/">
-              <li>Apple Fitness+</li>
+              <li>Apple Fitness</li>
             </a>
             <a href="/">
-              <li>Apple News+</li>
+              <li>Apple News</li>
             </a>
             <a href="/">
               <li>Apple Arcade</li>

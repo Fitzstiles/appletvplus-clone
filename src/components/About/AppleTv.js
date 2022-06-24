@@ -23,9 +23,11 @@ const AppleTv = () => {
           </div>
           <div className="texts">
             <h1>A higher definition of TV.</h1>
-            <div className="appletv__links">
-              <Link to="/">Buy</Link>
-              <Link to="/" style={{ color: "#2997ff", paddingLeft: 10 }}>
+            <div className="link__container">
+              <Link id="appletv__links" to="/">
+                Buy
+              </Link>
+              <Link to="/" className="blue__links">
                 Learn more
               </Link>
             </div>

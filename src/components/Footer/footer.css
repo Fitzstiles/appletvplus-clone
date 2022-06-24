@@ -66,11 +66,15 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    display: none;
+}
+
+.top__container h4 {
+    color: #1d1d1f;
 }
 
 .top__container svg {
     font-size: 16px;
+    display: none;
 }
 
 .linkss li {
@@ -144,7 +148,7 @@
         font-size: 30px;
     }
 
-    .top__container {
+    .top__container svg {
         display: flex;
     }
 }

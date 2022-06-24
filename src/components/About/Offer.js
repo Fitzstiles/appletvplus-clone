@@ -5,7 +5,7 @@ const Offer = () => {
     <div className="offer__container">
       <div className="offer__items">
         <div className="left__offer">
-          <img src="./images/appleicons.PNG" alt="" />
+          <img src="./images/appleicons.png" alt="" />
         </div>
         <div className="right__offer">
           <div className="thelogo">
@@ -29,7 +29,9 @@ const Offer = () => {
           <div className="offer__links">
             <Link to="/">Try Apple One free*</Link>
           </div>
-          <Link to="/">Learn more</Link>
+          <Link className="blue__links" to="/">
+            Learn more
+          </Link>
         </div>
       </div>
     </div>
