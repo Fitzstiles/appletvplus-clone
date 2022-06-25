@@ -40,4 +40,8 @@
     .collapse__container h1 {
         font-size: 30px;
     }
+
+    .dataitem__header h3 {
+        max-width: 280px;
+    }
 }

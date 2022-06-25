@@ -5,7 +5,7 @@ const Offer = () => {
     <div className="offer__container">
       <div className="offer__items">
         <div className="left__offer">
-          <img src="./images/appleicons.png" alt="" />
+          <img src="./images/appleicons.PNG" alt="" />
         </div>
         <div className="right__offer">
           <div className="thelogo">
