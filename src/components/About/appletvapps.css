@@ -1,0 +1,116 @@
+.center__element {
+    display: flex;
+    align-items: center;
+    /* height: 100vh; */
+}
+
+.apps__container {
+    max-width: 70%;
+    margin: 80px auto;
+    color: #6e6e73;
+    text-align: center;
+    overflow: hidden;
+}
+
+.apps__container h2 {
+    font-size: 70px;
+    font-weight: 700;
+    margin: 20px 0;
+    color: #1d1d1f;
+}
+
+.apps__container p {
+    font-weight: 200;
+    font-size: 16px;
+    margin-bottom: 40px;
+    word-spacing: 1px;
+}
+
+.appsLogo__container {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.appsLogo__container section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.appsLogo__container section h4 {
+    color: #1d1d1f;
+}
+
+.appsLogo__container section img {
+    width: 80px;
+}
+
+/* second Stylings */
+.secondLogo__container {
+    max-width: 70%;
+    margin-top: 40px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    overflow: hidden;
+}
+
+.fit {
+    max-width: 200px;
+}
+
+.secondLogo__container img {
+    width: 100%;
+}
+
+.secondApp__logo {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.secondLogo__container a {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.secondLogo__container h3 {
+    font-size: 38px;
+    font-weight: 600;
+    color: #1d1d1f;
+    max-width: 470px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+@media (max-width:800px) {
+    .apps__container h2 {
+        font-size: 30px;
+        font-weight: 700;
+        margin: 20px 0;
+    }
+
+    .appsLogo__container img {
+        width: 40px;
+    }
+
+    .fit {
+        max-width: 50px;
+    }
+
+    .secondLogo__container h3 {
+        font-size: 20px;
+        max-width: 500px;
+    }
+}

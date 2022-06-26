@@ -8,6 +8,8 @@ import SecondHeader from "./components/header/SecondHeader";
 import ThirdHeader from "./components/header/ThirdHeader";
 import { Data } from "./Data";
 import Faq from "./components/About/Faq";
+import AppleTVappps from "./components/About/AppleTVapps";
+import SecondLogos from "./components/About/SecondLogos";
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
         <Header />
         <SecondHeader />
         <ThirdHeader />
+        <AppleTVappps />
+        <SecondLogos />
         <Faq Data={Data} key={Data.id} />
         <Offer />
         <Applemusic />

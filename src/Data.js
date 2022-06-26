@@ -1,7 +1,7 @@
 export const Data = [
   {
     id: 1,
-    title: "What is AppleTV+",
+    title: "What is AppleTV+?",
     body: "Apple TV+ is a streaming service featuring Apple Originals — award-winning series, compelling dramas, groundbreaking documentaries, kids’ entertainment, comedies, and more — with new Apple Originals added every month.",
   },
   {
