@@ -1,13 +1,14 @@
 .center__element {
     display: flex;
     align-items: center;
-    /* height: 100vh; */
+    color: #1d1d1f;
+    background-color: white;
+    z-index: 1;
 }
 
 .apps__container {
     max-width: 70%;
     margin: 80px auto;
-    color: #6e6e73;
     text-align: center;
     overflow: hidden;
 }
@@ -16,7 +17,6 @@
     font-size: 70px;
     font-weight: 700;
     margin: 20px 0;
-    color: #1d1d1f;
 }
 
 .apps__container p {
@@ -101,12 +101,8 @@
         margin: 20px 0;
     }
 
-    .appsLogo__container img {
-        width: 40px;
-    }
-
     .fit {
-        max-width: 50px;
+        width: 50px;
     }
 
     .secondLogo__container h3 {

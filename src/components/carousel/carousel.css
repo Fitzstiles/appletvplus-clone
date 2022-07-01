@@ -1,0 +1,8 @@
+.genreCarousel__container {
+    position: relative;
+    overflow: hidden;
+}
+
+.genreCarousel__container video {
+    position: absolute;
+}

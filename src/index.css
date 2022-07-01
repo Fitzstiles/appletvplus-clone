@@ -21,6 +21,11 @@ code {
     monospace;
 }
 
+.generalbg {
+  color: white;
+  z-index: 5;
+}
+
 .blue__links {
   color: #2997FF;
   font-weight: 400;
@@ -29,4 +34,12 @@ code {
 
 .blue__links:hover {
   text-decoration: underline;
+}
+
+.hero__link {
+  background-color: rgb(255, 255, 255);
+  color: rgb(29, 29, 31);
+  font-weight: 600;
+  padding: 20px 40px;
+  border-radius: 30px;
 }

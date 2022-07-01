@@ -132,6 +132,8 @@ Apple music styling starts here
     max-width: 100%;
     margin: auto;
     overflow: hidden;
+    background-color: white;
+    z-index: 5;
 }
 
 .appletv__container,
@@ -191,7 +193,8 @@ Apple music styling starts here
     background-color: #2997FF;
     border-radius: 20px;
     color: white;
-    margin-right: 5px;
+    margin-right: 20px;
+    margin-top: 10px;
 }
 
 .airplay__image img {
@@ -224,6 +227,14 @@ Apple music styling starts here
 
     .airplay__items h1 {
         max-width: 95%;
+    }
+
+    .texts h1 {
+        font-size: 35px;
+    }
+
+    .textArea p {
+        font-size: 25px;
     }
 
     .appletv__container,

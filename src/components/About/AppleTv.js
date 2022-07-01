@@ -3,7 +3,7 @@ import "./about.css";
 import Airplay from "./Airplay";
 const AppleTv = () => {
   return (
-    <div className="both__container">
+    <div className="both__container generalbg">
       <div className="appletv__container">
         <div className="appletv__item">
           <div className="logo__container">

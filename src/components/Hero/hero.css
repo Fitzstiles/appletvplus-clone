@@ -1,0 +1,153 @@
+.hero__section {
+    position: relative;
+    z-index: -2;
+    overflow: hidden;
+}
+
+.background__video {
+    position: absolute;
+    top: -45px;
+    left: 0;
+    right: 0;
+    z-index: -2;
+    background-color: black;
+    overflow: hidden;
+}
+
+.background__video video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.text__container {
+    padding-left: 15%;
+    color: white;
+    padding-top: 150px;
+    padding-right: 0;
+}
+
+.first__text a {
+    margin: 80px 0;
+    background-color: rgb(255, 255, 255);
+    color: rgb(29, 29, 31);
+    font-weight: 600;
+    padding: 20px 40px;
+    border-radius: 30px;
+}
+
+.first__text h1 {
+    font-size: 80px;
+    overflow: hidden;
+}
+
+.streamow {
+    margin: 90px 0;
+}
+
+.second__text {
+    margin-top: 90px;
+    padding-bottom: 20px;
+}
+
+.second__text img {
+    width: 30px;
+}
+
+/* styling the texts */
+.theHero__texts {
+    color: white;
+    padding-bottom: 50px;
+    background-color: black;
+    overflow: hidden;
+    margin-top: -3px;
+    position: relative;
+}
+
+.firsttdiv {
+    max-width: 70%;
+    margin: auto;
+}
+
+.firsttdiv h1 {
+    max-width: 60%;
+    padding: 30px 0;
+}
+
+.AppleOffers {
+    display: flex;
+    max-width: 70%;
+    margin: auto;
+    justify-content: space-between;
+    color: white;
+    background-color: black;
+}
+
+.AppleOffers h3 {
+    margin: 50px 0;
+}
+
+.AppleOffers h1 {
+    font-size: 40px;
+}
+
+.AppleOffers p {
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #6e6e73;
+    font-size: 12px;
+    width: 220px;
+}
+
+
+
+@media (max-width:1030px) {
+    .AppleOffers {
+        max-width: 90%;
+    }
+
+    .AppleOffers p {
+        margin-bottom: 40px;
+    }
+
+    .firsttdiv h1 {
+        max-width: 90%
+    }
+}
+
+@media (max-width:1288px) {
+    .text__container {
+        padding-top: 80px;
+    }
+
+    .text__container h1 {
+        font-size: 60px;
+    }
+}
+
+@media (max-width:1012px) {
+    .background__video video {
+        height: 100vh;
+    }
+
+    .text__container {
+        padding-top: 100px;
+    }
+
+    .text__container {
+        width: 100%;
+    }
+}
+
+@media (max-width:815px) {
+    .AppleOffers {
+        padding-left: 15%;
+        flex-direction: column;
+    }
+
+    .firsttdiv h1 {
+        max-width: 100%;
+        font-size: 20px;
+    }
+}

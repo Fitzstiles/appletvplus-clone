@@ -10,6 +10,9 @@ import { Data } from "./Data";
 import Faq from "./components/About/Faq";
 import AppleTVappps from "./components/About/AppleTVapps";
 import SecondLogos from "./components/About/SecondLogos";
+import Hero from "./components/Hero/Hero";
+import HeroText from "./components/Hero/HeroText";
+// import Carousel from "./components/carousel/Carousel";
 
 function App() {
   return (
@@ -18,6 +21,9 @@ function App() {
         <Header />
         <SecondHeader />
         <ThirdHeader />
+        <Hero />
+        <HeroText />
+        {/* <Carousel /> */}
         <AppleTVappps />
         <SecondLogos />
         <Faq Data={Data} key={Data.id} />
