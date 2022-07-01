@@ -6,7 +6,7 @@ import "./faq.css";
 const Faq = ({ Data }) => {
   const [toggle, setToggle] = useState(false);
   return (
-    <div className="faqbg">
+    <div className="bg">
       <motion.div className="collapse__container">
         <h1>Question? Answers.</h1>
         {Data.map((dataitem) => (

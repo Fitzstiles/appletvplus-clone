@@ -10,6 +10,7 @@ body {
   font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Apple Legacy Chevron", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: black;
 }
 
 ::-webkit-scrollbar {
@@ -21,9 +22,10 @@ code {
     monospace;
 }
 
-.generalbg {
-  color: white;
+.bg {
+  background-color: white;
   z-index: 5;
+  padding: 20px;
 }
 
 .blue__links {
