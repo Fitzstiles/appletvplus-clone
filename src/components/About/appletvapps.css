@@ -111,3 +111,14 @@
         max-width: 500px;
     }
 }
+
+@media (max-width:500px) {
+    .secondApp__logo {
+        justify-content: center;
+    }
+
+    .appsLogo__container {
+        justify-content: center;
+        gap: 10px;
+    }
+}

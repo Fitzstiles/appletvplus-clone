@@ -7,7 +7,7 @@ const Faq = ({ Data }) => {
   const [toggle, setToggle] = useState(false);
   return (
     <div className="bg">
-      <motion.div className="collapse__container">
+      <div className="collapse__container">
         <h1>Question? Answers.</h1>
         {Data.map((dataitem) => (
           <div className="dataitem">
@@ -25,22 +25,15 @@ const Faq = ({ Data }) => {
               <h3>{dataitem.title}</h3>
               {toggle === dataitem.id ? <MdExpandLess /> : <MdExpandMore />}
             </div>
-            <AnimatePresence>
-              {toggle === dataitem.id && (
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ duration: 0.6 }}
-                  exit={{ opacity: 0 }}
-                  className="dataitem__body"
-                >
-                  <p>{dataitem.body} </p>
-                </motion.div>
-              )}
-            </AnimatePresence>
+
+            {toggle === dataitem.id && (
+              <div className="dataitem__body">
+                <p>{dataitem.body} </p>
+              </div>
+            )}
           </div>
         ))}
-      </motion.div>
+      </div>
     </div>
   );
 };
