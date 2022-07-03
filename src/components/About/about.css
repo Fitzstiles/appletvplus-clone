@@ -237,6 +237,10 @@ Apple music styling starts here
         font-size: 25px;
     }
 
+    .applemusic__container {
+        gap: 50px;
+    }
+
     .appletv__container,
     .airplay__container {
         padding-top: 70px;

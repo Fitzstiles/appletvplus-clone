@@ -12,9 +12,12 @@ import AppleTVappps from "./components/About/AppleTVapps";
 import SecondLogos from "./components/About/SecondLogos";
 import Hero from "./components/Hero/Hero";
 import HeroText from "./components/Hero/HeroText";
+import AOS from "aos";
+import "aos/dist/aos.css";
 // import Carousel from "./components/carousel/Carousel";
 
 function App() {
+  AOS.init();
   return (
     <div className="App">
       <BrowserRouter>

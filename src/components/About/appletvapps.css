@@ -76,7 +76,6 @@
     width: 100%;
     gap: 40px;
     justify-content: space-between;
-    width: 100%;
     flex-wrap: wrap;
     margin-top: 20px;
 }
@@ -114,7 +113,7 @@
 
 @media (max-width:500px) {
     .secondApp__logo {
-        gap: 25px;
+        gap: 30px;
         justify-content: center;
     }
 
