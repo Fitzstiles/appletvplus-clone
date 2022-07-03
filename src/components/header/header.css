@@ -42,6 +42,7 @@
     background-color: #19191B;
     position: sticky;
     top: 0;
+    z-index: 999;
 }
 
 .upperHeader__container {

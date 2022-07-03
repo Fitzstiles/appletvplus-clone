@@ -11,7 +11,7 @@ const HeroText = () => {
         <h1 data-aos="fade-up">Share Apple TV+ with your Family</h1>
       </div>
       <div data-aos="fade-up" className="AppleOffers">
-        <div className="firstOffer">
+        <div data-aos="fade-up" className="firstOffer">
           <h3>Buy an Apple device</h3>
           <h1>3 months free.</h1>
           <p>
@@ -25,7 +25,7 @@ const HeroText = () => {
             Cheack eligibility
           </a>
         </div>
-        <div className="secondOffer">
+        <div data-aos="fade-up" className="secondOffer">
           <h3>Free 7-day trial</h3>
           <h1>$4.99/mo.</h1>
           <p>
@@ -39,7 +39,7 @@ const HeroText = () => {
             Try it free
           </a>
         </div>
-        <div className="thirdOffer">
+        <div data-aos="fade-up" className="thirdOffer">
           <h3>Free 1‑month trial</h3>
           <h1>Apple One</h1>
           <p>

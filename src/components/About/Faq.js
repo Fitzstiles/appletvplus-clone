@@ -21,7 +21,7 @@ const Faq = ({ Data }) => {
               }}
               className="dataitem__header"
             >
-              <h3 data-aos="fade-up">{dataitem.title}</h3>
+              <h3>{dataitem.title}</h3>
               {toggle === dataitem.id ? <MdExpandLess /> : <MdExpandMore />}
             </div>
 

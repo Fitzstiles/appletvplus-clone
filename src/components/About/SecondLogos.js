@@ -20,35 +20,34 @@ const SecondLogos = () => {
         </a>
         <div className="secondApp__logo">
           <div className="fit">
-            <img src="./images/sam.PNG" alt="" />
+            <img data-aos="zoom-in-right" src="./images/sam.PNG" alt="" />
           </div>
           <div className="fit">
-            <img src="./images/lg.PNG" alt="" />
+            <img data-aos="zoom-in-right" src="./images/lg.PNG" alt="" />
           </div>
           <div className="fit">
-            <img src="./images/vizo.PNG" alt="" />
+            <img data-aos="zoom-in-right" src="./images/vizo.PNG" alt="" />
           </div>
           <div className="fit">
-            {" "}
-            <img src="./images/sony.PNG" alt="" />
+            <img data-aos="zoom-in-right" src="./images/sony.PNG" alt="" />
           </div>
           <div className="fit">
-            <img src="./images/xfinity.PNG" alt="" />
+            <img data-aos="zoom-in-right" src="./images/xfinity.PNG" alt="" />
           </div>
           <div className="fit">
-            <img src="./images/roku.PNG" alt="" />
+            <img data-aos="zoom-in-right" src="./images/roku.PNG" alt="" />
           </div>
           <div className="fit">
-            <img src="./images/fire.PNG" alt="" />
+            <img data-aos="zoom-in-right" src="./images/fire.PNG" alt="" />
           </div>
           <div className="fit">
-            <img src="./images/google.PNG" alt="" />
+            <img data-aos="zoom-in-right" src="./images/google.PNG" alt="" />
           </div>
           <div className="fit">
-            <img src="./images/play.PNG" alt="" />
+            <img data-aos="zoom-in-right" src="./images/play.PNG" alt="" />
           </div>
           <div className="fit">
-            <img src="./images/xbox.PNG" alt="" />
+            <img data-aos="zoom-in-right" src="./images/xbox.PNG" alt="" />
           </div>
         </div>
       </div>
