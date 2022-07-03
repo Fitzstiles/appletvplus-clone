@@ -5,7 +5,7 @@
 }
 
 .background__video {
-    position: absolute;
+    position: fixed;
     top: -45px;
     left: 0;
     right: 0;

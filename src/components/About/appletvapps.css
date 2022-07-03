@@ -114,6 +114,7 @@
 
 @media (max-width:500px) {
     .secondApp__logo {
+        gap: 25px;
         justify-content: center;
     }
 

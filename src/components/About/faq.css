@@ -28,7 +28,6 @@
 }
 
 .dataitem__header svg {
-    width: 40px;
     font-size: 40px;
     color: #d2d2d7;
 }
@@ -63,11 +62,10 @@
         font-size: 14px;
         line-height: 20px;
         word-spacing: 3px;
-
     }
 
     .dataitem__header h3 {
-        max-width: 280px;
+        width: 280px;
         font-size: 20px;
     }
 }
