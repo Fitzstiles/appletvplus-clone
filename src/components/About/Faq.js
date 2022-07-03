@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { MdExpandLess, MdExpandMore } from "react-icons/md";
-import { AnimatePresence, motion } from "framer-motion";
 
 import "./faq.css";
 const Faq = ({ Data }) => {
@@ -22,7 +21,7 @@ const Faq = ({ Data }) => {
               }}
               className="dataitem__header"
             >
-              <h3>{dataitem.title}</h3>
+              <h3 data-aos="fade-up">{dataitem.title}</h3>
               {toggle === dataitem.id ? <MdExpandLess /> : <MdExpandMore />}
             </div>
 

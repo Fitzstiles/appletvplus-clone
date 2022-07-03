@@ -2,15 +2,15 @@ import "./hero.css";
 const HeroText = () => {
   return (
     <div className="theHero__texts">
-      <div className="firsttdiv">
-        <h1>New Apple Originals Every month.</h1>
-        <h1>
+      <div data-aos="fade-up" className="firsttdiv">
+        <h1 data-aos="fade-up">New Apple Originals Every month.</h1>
+        <h1 data-aos="fade-up">
           Stream on the AppleTv app on Apple Devices,Smart TVs,consoles or
           sticks.
         </h1>
-        <h1>Share Apple TV+ with your Family</h1>
+        <h1 data-aos="fade-up">Share Apple TV+ with your Family</h1>
       </div>
-      <div className="AppleOffers">
+      <div data-aos="fade-up" className="AppleOffers">
         <div className="firstOffer">
           <h3>Buy an Apple device</h3>
           <h1>3 months free.</h1>

@@ -28,6 +28,7 @@
 }
 
 .dataitem__header svg {
+    width: 40px;
     font-size: 40px;
     color: #d2d2d7;
 }

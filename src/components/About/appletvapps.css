@@ -46,7 +46,7 @@
 }
 
 .appsLogo__container section img {
-    width: 80px;
+    max-width: 80px;
 }
 
 /* second Stylings */
@@ -103,7 +103,7 @@
     }
 
     .fit {
-        width: 50px;
+        max-width: 50px;
     }
 
     .secondLogo__container h3 {
