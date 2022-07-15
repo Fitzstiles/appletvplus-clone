@@ -12,7 +12,7 @@ export const Data = [
   {
     id: 3,
     title: "What does it cost?",
-    body: "That all depends on which offer you choose. (1) If you buy an Apple device, Apple TV+ is included free for 3 months.1 (2) A monthly subscription is just $4.99 per month after a free seven-day trial.2 (3) Apple TV+ is included in <a href='/'>Apple One</a> , which bundles up to five other Apple services into a single monthly subscription. Apple One plans start at $14.95 per month. (4) The Apple Music Student Plan comes with a free subscription to Apple TV+.3 Friday Night Baseball is free for a limited time — an Apple TV+ subscription is not required.",
+    body: "That all depends on which offer you choose.\n(1) If you buy an Apple device, Apple TV+ is included free for 3 months.1 \n(2) A monthly subscription is just $4.99 per month after a free seven-day trial.2 \n(3) Apple TV+ is included in <a href='/'>Apple One</a> , which bundles up to five other Apple services into a single monthly subscription. Apple One plans start at $14.95 per month. \n(4) The Apple Music Student Plan comes with a free subscription to Apple TV+.3 Friday Night Baseball is free for a limited time — an Apple TV+ subscription is not required.",
   },
   {
     id: 4,

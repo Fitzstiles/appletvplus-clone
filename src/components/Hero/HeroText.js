@@ -1,3 +1,4 @@
+// import Carousel from "../carousel/Carousel";
 import "./hero.css";
 const HeroText = () => {
   return (
@@ -57,6 +58,7 @@ const HeroText = () => {
           </a>
         </div>
       </div>
+      {/* <Carousel /> */}
     </div>
   );
 };

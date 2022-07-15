@@ -60,13 +60,13 @@
     padding-bottom: 50px;
     overflow: hidden;
     margin-top: -3px;
-    position: relative;
     z-index: -2;
 }
 
 .firsttdiv {
     max-width: 70%;
     margin: auto;
+    padding-bottom: 150px;
 }
 
 .firsttdiv h1 {
@@ -162,4 +162,5 @@
     .first__text h1 {
         font-size: 60px;
     }
+
 }

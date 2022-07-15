@@ -14,17 +14,18 @@
     padding-top: 10px;
 }
 
+
 .dataitem {
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 .dataitem__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 0;
     cursor: pointer;
     border-bottom: 1px solid #d2d2d7;
+    margin-bottom: 20px;
 }
 
 .dataitem__header svg {
@@ -33,11 +34,11 @@
 }
 
 .dataitem__body {
-    margin: 20px 0;
     font-weight: 400;
     font-size: 17px;
     color: #6e6e73;
 }
+
 
 .dataitem__header h3 {
     font-size: 20px;
