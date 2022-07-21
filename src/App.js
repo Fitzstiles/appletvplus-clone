@@ -14,6 +14,8 @@ import Hero from "./components/Hero/Hero";
 import HeroText from "./components/Hero/HeroText";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Carousel from "./components/Carousel/Carousel";
+import requests from "./request";
 function App() {
   AOS.init();
   return (
@@ -24,6 +26,8 @@ function App() {
         <ThirdHeader />
         <Hero />
         <HeroText />
+        <Carousel fetchUrl={requests.popularSeries} />
+        <Carousel fetchUrl={requests.trending} />
         <AppleTVappps />
         <SecondLogos />
         <Faq Data={Data} key={Data.id} />

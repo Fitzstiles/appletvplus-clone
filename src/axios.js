@@ -4,5 +4,3 @@ const instance = axios.create({
 });
 
 export default instance;
-
-// https://developers.themoviedb.org/3/genres/get-tv-list
